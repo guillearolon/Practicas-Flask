@@ -1,0 +1,22 @@
+div {
+    text-align: center;
+}
+
+h1 {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    color: coral;
+}
+p {
+    font-size: 40 px;
+    color: red;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40 px;
+    color: steelblue;
+    font-weight: bold;
+}

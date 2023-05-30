@@ -1,0 +1,17 @@
+{% extends './index.html' %}
+
+{% block contenido %}
+    
+<ul>
+    {% if dic.condicion %}
+
+    {% for lenguaje in dic.lenguajes %}    
+    <li>{{ lenguaje }}</li>
+    {% endfor %}
+
+    {% else %}
+    <h2>No hay lenguajes</h2>
+    {% endif %}
+</ul>
+        
+{% endblock %}
